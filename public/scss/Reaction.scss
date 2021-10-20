@@ -1,0 +1,42 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+
+$font_type0: 12px/1.8333333333333333 Roboto, Helvetica, Arial, serif;
+
+.reaction {
+  &-reaction {
+    display: flex;
+  }
+  &-reaction-posize {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &-icon {
+    background: var(--src) center center / contain no-repeat;
+  }
+  &-icon-posize {
+    position: relative;
+    height: 16px;
+    width: 16px;
+    min-width: 16px;
+    margin: 0px 0px 6px;
+  }
+  &-reaction-space {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 4.5px;
+  }
+  &-reaction-item {
+    display: flex;
+    flex: 0 0 auto;
+  }
+  &-label {
+    font: $font_type0;
+    color: rgb(92, 105, 139);
+  }
+  &-label-posize {
+    position: relative;
+    width: fit-content;
+    margin: 0px;
+  }
+}

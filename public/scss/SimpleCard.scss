@@ -1,0 +1,330 @@
+/* This source code is exported from pxCode, you can get more document from https://www.pxcode.io */
+
+$font_type0: 16px/1.25 Roboto, Helvetica, Arial, serif;
+$font_type1: 14px/1.5 Roboto, Helvetica, Arial, serif;
+$font_type2: 12px/1.6666666666666667 Roboto, Helvetica, Arial, serif;
+$font_type3: 14px/1.2857142857142858 Roboto, Helvetica, Arial, serif;
+$font_type4: 12px/1.8333333333333333 Roboto, Helvetica, Arial, serif;
+
+$font_color_type0: rgb(255, 255, 255);
+$font_color_type1: rgb(0, 109, 204);
+$font_color_type2: rgb(85, 104, 139);
+
+$background_type0: var(--src) center center / contain no-repeat;
+
+$border_radius_type0: 0px 0px 0px 0px;
+
+.simple-card {
+  &-body {
+    display: flex;
+    background-color: $font_color_type0;
+  }
+  &-body-posize {
+    position: relative;
+    min-height: 476px;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &-flexbox {
+    display: flex;
+    flex-direction: column;
+    background-color: $font_color_type0;
+    border: 1px solid rgb(222, 222, 222);
+    border-radius: 5px 5px 5px 5px;
+    filter: drop-shadow(0px 2px 4px rgba(197, 197, 197, 0.5019607843137255));
+  }
+  &-flexbox-posize {
+    position: relative;
+    height: 446px;
+    flex-grow: 1;
+    min-width: 320px;
+    margin: 15px 15px 15px 17px;
+  }
+  &-group {
+    display: flex;
+    flex: 0 0 auto;
+  }
+  &-group-posize {
+    position: relative;
+    height: 45.5px;
+    width: 348px;
+    min-width: 348px;
+    margin: 17px 0px 0px 15px;
+  }
+  &-flexbox1 {
+    display: flex;
+  }
+  &-flexbox1-posize {
+    position: relative;
+    min-height: 45.5px;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &-avatar {
+    background: $background_type0;
+  }
+  &-avatar-posize {
+    position: relative;
+    height: 42px;
+    width: 42px;
+    min-width: 42px;
+    margin: 1px 0px 3px;
+  }
+  &-flexbox1-space {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 8px;
+  }
+  &-flexbox1-item {
+    display: flex;
+    flex: 1 0 auto;
+    min-width: 99px;
+  }
+  &-flexbox2 {
+    display: flex;
+    flex-direction: column;
+  }
+  &-flexbox2-posize {
+    position: relative;
+    flex-grow: 1;
+    margin: 4px 0px 0px;
+  }
+  &-flexbox2-item {
+    display: flex;
+    flex: 0 0 auto;
+  }
+  &-title {
+    font: $font_type0;
+    color: $font_color_type1;
+  }
+  &-title-posize {
+    position: relative;
+    width: fit-content;
+    margin: 0px;
+  }
+  &-subtitle {
+    font: $font_type1;
+    color: rgb(85, 103, 139);
+  }
+  &-subtitle-posize {
+    position: relative;
+    width: fit-content;
+    margin: 1px 0px 0px;
+  }
+  &-flexbox1-space1 {
+    display: flex;
+    flex: 1 1 185px;
+  }
+  &-icon {
+    background: $background_type0;
+  }
+  &-icon-posize {
+    position: relative;
+    height: 9px;
+    width: 14px;
+    min-width: 14px;
+    margin: 0px;
+  }
+  &-content {
+    font: $font_type0;
+    color: rgb(8, 7, 7);
+    margin: 0px;
+    flex: 0 0 auto;
+  }
+  &-content-posize {
+    position: relative;
+    margin: 2px 9px 1px 13px;
+  }
+  &-flexbox-item {
+    display: flex;
+    flex: 0 0 auto;
+  }
+  &-continue {
+    font: $font_type2;
+    color: $font_color_type1;
+  }
+  &-continue-posize {
+    position: relative;
+    width: fit-content;
+    margin: 1px 0px 1px 14px;
+  }
+  &-cover {
+    background: var(--src) center center / cover no-repeat;
+    border-radius: $border_radius_type0;
+    flex: 0 0 auto;
+  }
+  &-cover-posize {
+    position: relative;
+    min-height: 196px;
+    margin: 1px 1px 11px 0px;
+  }
+  &-flexbox3 {
+    display: flex;
+    flex: 0 0 auto;
+  }
+  &-flexbox3-posize {
+    position: relative;
+    min-height: 18px;
+    margin: 11px 5px 7px 11px;
+  }
+  &-flexbox3-item {
+    display: flex;
+    flex: 0 0 auto;
+  }
+  &-like {
+    font: $font_type3;
+    color: $font_color_type2;
+  }
+  &-like-posize {
+    position: relative;
+    width: fit-content;
+    margin: 0px;
+  }
+  &-flexbox3-space {
+    display: flex;
+    flex: 1 1 96px;
+  }
+  &-comment {
+    font: $font_type3;
+    color: $font_color_type2;
+  }
+  &-comment-posize {
+    position: relative;
+    width: fit-content;
+    margin: 0px;
+  }
+  &-line {
+    background-color: rgb(215, 220, 230);
+    border-radius: $border_radius_type0;
+    flex: 0 0 auto;
+  }
+  &-line-posize {
+    position: relative;
+    height: 1px;
+    margin: 7px 1px 0px;
+  }
+  &-flexbox4 {
+    display: flex;
+    flex: 0 0 auto;
+  }
+  &-flexbox4-posize {
+    position: relative;
+    min-height: 22.47px;
+    margin: 7px 17px 10px 19px;
+  }
+  &-flexbox4-item {
+    display: flex;
+    flex: 0 1 45.5px;
+  }
+  &-group1 {
+    display: flex;
+  }
+  &-group1-posize {
+    position: relative;
+    height: 22.25px;
+    width: 45.5px;
+    min-width: 45.5px;
+    margin: 0px;
+  }
+  &-reaction {
+    display: flex;
+  }
+  &-reaction-posize {
+    position: relative;
+    flex-grow: 1;
+    margin: 0px;
+  }
+  &-icon-posize1 {
+    position: relative;
+    height: 16px;
+    width: 16px;
+    min-width: 16px;
+    margin: 0px 0px 6px;
+  }
+  &-reaction-space {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 4.5px;
+  }
+  &-reaction-item {
+    display: flex;
+    flex: 0 0 auto;
+  }
+  &-label {
+    font: $font_type4;
+    color: rgb(92, 105, 139);
+  }
+  &-label-posize {
+    position: relative;
+    width: fit-content;
+    margin: 0px;
+  }
+  &-flexbox4-space {
+    display: flex;
+    flex: 1 1 80.5px;
+  }
+  &-flexbox4-item1 {
+    display: flex;
+    flex: 0 1 81px;
+  }
+  &-group2 {
+    display: flex;
+  }
+  &-group2-posize {
+    position: relative;
+    height: 22.25px;
+    width: 45.5px;
+    min-width: 45.5px;
+    margin: 0px;
+  }
+  &-icon-posize2 {
+    position: relative;
+    height: 16px;
+    width: 16px;
+    min-width: 16px;
+    margin: 0px 0px 6px;
+  }
+  &-reaction1-space {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 4.5px;
+  }
+  &-reaction1-item {
+    display: flex;
+    flex: 0 0 auto;
+  }
+  &-flexbox4-space1 {
+    display: flex;
+    flex: 1 1 74px;
+  }
+  &-flexbox4-item2 {
+    display: flex;
+    flex: 0 1 59.85px;
+  }
+  &-group3 {
+    display: flex;
+  }
+  &-group3-posize {
+    position: relative;
+    height: 22.25px;
+    width: 45.5px;
+    min-width: 45.5px;
+    margin: 0px;
+  }
+  &-icon-posize3 {
+    position: relative;
+    height: 16px;
+    width: 16px;
+    min-width: 16px;
+    margin: 0px 0px 6px;
+  }
+  &-reaction2-space {
+    display: flex;
+    flex: 0 0 auto;
+    min-width: 4.5px;
+  }
+  &-reaction2-item {
+    display: flex;
+    flex: 0 0 auto;
+  }
+}
